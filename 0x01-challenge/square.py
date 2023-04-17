@@ -4,7 +4,6 @@ class Square():
     """
     A Class representing a square
     """
-    
     def __init__(self, **kwargs):
         """
         Initializes a square object with given width and height
@@ -23,6 +22,7 @@ class Square():
 
     def __str__(self):
         return "{}/{}".format(self.width, self.height)
+
 
 if __name__ == "__main__":
 
